@@ -64,6 +64,7 @@ class StudentListAdapter(val studentList:ArrayList<Student>):RecyclerView.Adapte
 //            exception.printStackTrace()
 //        }
 //        picasso.build().load(studentList[position].photoUrl).into(holder.imgPhoto)
+        // buat....
     }
 
     fun updateStudentList(newStudentList:ArrayList<Student>) {
